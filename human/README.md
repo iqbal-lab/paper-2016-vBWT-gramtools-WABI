@@ -25,3 +25,5 @@ gramtools/src/gramtools
 
 All of the arguments except the first are effectively dummies.
 
+We used syrupy (https://github.com/jeetsukumaran/Syrupy ) to monitor RAM usage during construction, plus
+the automated memory monitor that comes with the SDSL library

@@ -17,9 +17,9 @@ a fasta header line above, called wg.fa, which is needed in the next command
 
 ## Make some auxiliary files:
 
-This generates a list of kmers in the PRG, which is needed as an input:
+This generates a list of kmers in the PRG that are overlapping variants, which is needed as an input:
 
-python gramtools/utils/variantKmers.py -f wg.fa -k 9 -n > wg.all.kmers
+python gramtools/utils/variantKmers.py -f wg.fa -k 9 > wg.sites.kmers
 
 
 
